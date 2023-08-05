@@ -1,3 +1,3 @@
-FROM openjdk:11.0.20
+FROM openjdk
 ADD *.jar app.jar
 ENTRYPOINT java -jar app.jar
